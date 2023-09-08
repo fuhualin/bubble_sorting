@@ -1,0 +1,4 @@
+for i = 1 to A.length - 1
+    for j = (i + 1) to (A.length - i + 1) 
+        if A[j] < A[j-1]
+        	swap A[j] with A[j-1]
